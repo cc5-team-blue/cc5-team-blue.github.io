@@ -1,18 +1,35 @@
 body {
   background-color: #eb5e65;
   font-family: "futura";
+  color: white;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px 20px -40px 20px;
+  height: 40px;
+  align-items: center;
 }
 
 .main-container {
   display: flex;
   flex-wrap: wrap;
-  width: 80%;
+  width: 85%;
   margin: auto;
-  margin-top: 20px;
-  color: white;
   font-size: 40px;
   flex-flow: row;
   flex: 1;
+}
+
+.habbitText {
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  align-self: center;
+  padding-left: 10px;
 }
 
 .main-container h3 {
@@ -50,4 +67,10 @@ p {
   margin-top: 40px;
   width: 200px;
   height: auto;
+}
+
+.habbitIcon {
+  display: flex;
+  width: auto;
+  height: 30px;
 }
