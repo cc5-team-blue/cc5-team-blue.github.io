@@ -1,0 +1,53 @@
+body {
+  background-color: #eb5e65;
+  font-family: "futura";
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  color: white;
+  font-size: 40px;
+  flex-flow: row;
+  flex: 1;
+}
+
+.main-container h3 {
+  margin-top: -50px;
+  font-size: 30px;
+}
+
+.left {
+  margin-top: 70px;
+  flex: 1;
+}
+
+p {
+  font-size: 20px;
+  font-family: "avenir";
+}
+
+.right {
+  flex: 1;
+}
+
+.homescreen {
+  width: 100%;
+  height: auto;
+}
+
+.appstore {
+  margin-top: 40px;
+  width: 200px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.playstore {
+  margin-top: 40px;
+  width: 200px;
+  height: auto;
+}
