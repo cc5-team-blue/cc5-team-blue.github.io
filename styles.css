@@ -95,11 +95,11 @@ a {
 }
 
 #mc_embed_signup {
-  margin-top: 50px;
-  text-align: center;
-  font-size: 20px;
+  margin-top: 40px;
+  /* text-align: center; */
+  font-size: 14px;
   width: 100%;
-  /* font-family: "avenir"; */
+  font-family: "avenir";
 }
 
 input {
@@ -107,6 +107,7 @@ input {
   padding: 10px;
   border-radius: 10px;
   margin-top: 10px;
+  margin-left: 10px;
 }
 
 /* .imgWrapper {
