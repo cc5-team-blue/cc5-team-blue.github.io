@@ -20,7 +20,7 @@ body {
   width: 85%;
   margin: auto;
   font-size: 40px;
-  flex-flow: row;
+  /* flex-flow: row; */
   flex: 1;
 }
 
@@ -37,19 +37,19 @@ body {
   font-size: 30px;
 }
 
-.left {
+/* .left {
   margin-top: 70px;
   flex: 1;
-}
+} */
 
 p {
   font-size: 20px;
   font-family: "avenir";
 }
 
-.right {
+/* .right {
   flex: 1;
-}
+} */
 
 .homescreen {
   width: 100%;
@@ -114,3 +114,16 @@ input {
   margin-top: 10px;
   text-align: center;
 } */
+
+@media only screen and (min-width: 600px) {
+  .main-container {
+    flex-flow: row;
+  }
+  .left {
+    flex: 1;
+  }
+
+  .right {
+    flex: 1;
+  }
+}
